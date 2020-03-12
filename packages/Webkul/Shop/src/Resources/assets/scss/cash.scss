@@ -1,0 +1,107 @@
+@import "color.scss";
+@import url("https://fonts.googleapis.com/css?family=Tajawal&display=swap");
+.home {
+  font-family: "Tajawal";
+  .main{
+      padding: 30px;
+      .zzz{
+          form{
+            width: 60%;
+            margin: auto;
+            button{
+                width: 100%;
+                background-color: $thirdcolor;
+                color: #fff;
+                border: none;
+                padding: 7px 0px;
+                border-radius: 20px;
+                :hover{
+                    color: $thirdcolor;
+                    background-color: #fff;
+                }
+            }
+          }
+      }
+      select{
+          width: 100%;
+      }
+      input{
+          text-align: right;
+      }
+  }
+  .sidebar {
+    padding: 30px;
+    background-color: #e4e4e4;
+    min-height: 100vh;
+    position: fixed;
+    right: 0px;
+    top:0px;
+    .logo {
+      width: 40%;
+    }
+    h5 {
+      margin-top: 20px;
+    }
+    .int {
+      button {
+        margin-top: 20px;
+        background-color: $secondcolor;
+        border: none;
+        outline: none;
+        width: 55%;
+        :hover {
+          background-color: $secondcolor;
+          border: none;
+          outline: none;
+        }
+        :active {
+          outline: none;
+        }
+      }
+    }
+    .chart {
+      padding-top: 30px;
+      .row {
+        .col-md-12:nth-child(1) {
+          background-color: $secondcolor;
+          p {
+            margin: 0.4rem;
+          }
+        }
+        .col-md-12:nth-child(2) {
+          background-image: url(../img/sidepro.png);
+          background-size: cover;
+          height: 8vh;
+          background-position: center;
+          padding: 0px;
+        }
+        .col-md-12:nth-child(3) {
+          background-color: #fff;
+          margin-bottom: 10px;
+          p {
+            margin: 0.4rem;
+          }
+        }
+        .total {
+          margin-top: 15px;
+          padding: 0px;
+          button {
+            background-color: $thirdcolor;
+            color: #fff;
+            border: none;
+            outline: none;
+            padding: 5px 10px;
+            :hover {
+              background-color: $thirdcolor;
+              border: none;
+              outline: none;
+            }
+            :active {
+              outline: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

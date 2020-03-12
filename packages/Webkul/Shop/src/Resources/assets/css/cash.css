@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Tajawal&display=swap");
+.home {
+  font-family: "Tajawal";
+}
+.home .main {
+  padding: 30px;
+}
+.home .main .zzz form {
+  width: 60%;
+  margin: auto;
+}
+.home .main .zzz form button {
+  width: 100%;
+  background-color: #2D5C5C;
+  color: #fff;
+  border: none;
+  padding: 7px 0px;
+  border-radius: 20px;
+}
+.home .main .zzz form button :hover {
+  color: #2D5C5C;
+  background-color: #fff;
+}
+.home .main select {
+  width: 100%;
+}
+.home .main input {
+  text-align: right;
+}
+.home .sidebar {
+  padding: 30px;
+  background-color: #e4e4e4;
+  min-height: 100vh;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+}
+.home .sidebar .logo {
+  width: 40%;
+}
+.home .sidebar h5 {
+  margin-top: 20px;
+}
+.home .sidebar .int button {
+  margin-top: 20px;
+  background-color: #F6C35E;
+  border: none;
+  outline: none;
+  width: 55%;
+}
+.home .sidebar .int button :hover {
+  background-color: #F6C35E;
+  border: none;
+  outline: none;
+}
+.home .sidebar .int button :active {
+  outline: none;
+}
+.home .sidebar .chart {
+  padding-top: 30px;
+}
+.home .sidebar .chart .row .col-md-12:nth-child(1) {
+  background-color: #F6C35E;
+}
+.home .sidebar .chart .row .col-md-12:nth-child(1) p {
+  margin: 0.4rem;
+}
+.home .sidebar .chart .row .col-md-12:nth-child(2) {
+  background-image: url(../img/sidepro.png);
+  background-size: cover;
+  height: 8vh;
+  background-position: center;
+  padding: 0px;
+}
+.home .sidebar .chart .row .col-md-12:nth-child(3) {
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.home .sidebar .chart .row .col-md-12:nth-child(3) p {
+  margin: 0.4rem;
+}
+.home .sidebar .chart .row .total {
+  margin-top: 15px;
+  padding: 0px;
+}
+.home .sidebar .chart .row .total button {
+  background-color: #2D5C5C;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+}
+.home .sidebar .chart .row .total button :hover {
+  background-color: #2D5C5C;
+  border: none;
+  outline: none;
+}
+.home .sidebar .chart .row .total button :active {
+  outline: none;
+}
+
+/*# sourceMappingURL=cash.css.map */
